@@ -1,0 +1,49 @@
+*{
+    border: 0;
+    margin: 0;
+}
+
+body {
+   background-color:antiquewhite; 
+}
+
+h1{
+    color: green;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+
+.promo{
+    display:flex;
+    gap: 1rem;
+    width: 80%;
+    margin: 50px auto;
+    align-items: center;
+}
+
+    .promo-column {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+
+    .promo-column img{
+        width: 50px;
+        margin: auto;
+    }
+
+video{
+    width: 100%;
+    min-width: 400px;
+    aspect-ratio: 16/9;
+}
